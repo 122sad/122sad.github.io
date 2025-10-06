@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: Hugo Pages Deploy (peaceiris)
 
 on:
   push:
@@ -29,6 +29,9 @@ jobs:
         with:
           hugo-version: '0.151.0'
           extended: true
+
+      - name: Show Hugo version
+        run: hugo version
 
       - name: Build
         run: hugo --minify
