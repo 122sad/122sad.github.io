@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://122sad.github.io/sitemap.xml
