@@ -1,0 +1,12 @@
+<style>
+  :root { --sidebar-width: 220px; }
+  .sidebar-fixed { position: fixed; left: 0; top: 0; bottom: 0; width: var(--sidebar-width); padding: 24px 16px; overflow-y: auto; z-index: 1000; border-right: 1px solid var(--border); background: var(--theme); }
+  .sidebar-fixed .site-title { font-weight: 700; margin-bottom: 16px; }
+  .sidebar-fixed .site-title a { text-decoration: none; color: var(--primary); }
+  .sidebar-fixed .sidebar-nav { display: flex; flex-direction: column; gap: 10px; }
+  .sidebar-fixed .sidebar-nav a { color: var(--content); text-decoration: none; padding: 8px 10px; border-radius: 8px; }
+  .sidebar-fixed .sidebar-nav a:hover { background: var(--entry); }
+  @media (min-width: 800px) { body { margin-left: var(--sidebar-width); } }
+  @media (max-width: 799px) { .sidebar-fixed { display: none; } }
+</style>
+
