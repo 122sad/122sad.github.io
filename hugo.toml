@@ -1,0 +1,12 @@
+baseURL = "https://example.org/"
+languageCode = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  description = "我的 Hugo 博客"
